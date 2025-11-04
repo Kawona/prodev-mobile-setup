@@ -48,7 +48,7 @@ export default function Index() {
         <View style={styles.socialMediaButtonGroup}>
           <TouchableOpacity style={styles.socialMediaButton}>
             <View style={{ flexDirection: "row", alignItems: "center", gap: 5 }}>
-              <Image  source={require("@/assets/images/google.jpg")} style={styles.socialLogo} />
+              <Image  source={require("@/assets/images/google.png")} style={styles.socialLogo} />
               <Text style={styles.socialMediaButtonText}>
                 Continue with Google
               </Text>
